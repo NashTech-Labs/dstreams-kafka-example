@@ -26,7 +26,7 @@ class DStreamsSpec extends WordSpec with EmbeddedKafka {
 
   "DStreams" should {
 
-    "get imagecounts every 5 seconds" in {
+    "print every 5 seconds" in {
 
       withRunningKafka {
 
